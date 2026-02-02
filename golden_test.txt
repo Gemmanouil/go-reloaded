@@ -1,0 +1,10 @@
+2A (hex)
+this is wild (up, 3)
+Are you sure  ? Yes !
+He called it '   magic   '
+She found a umbrella
+(up)
+Hello world (low, 10)
+Try this (up, X)
+run fast (up) now (cap)
+Wait , stop ! This is odd ... right ?
