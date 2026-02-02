@@ -226,7 +226,7 @@ v
 ## 8. Milestones (Next Week Plan)
 
 **Milestone 1 — File I/O**  
-Read input, write unchanged output.
+Read input, write changed output.
 
 **Milestone 2 — Tokenization & Marker Parsing**  
 Detect `(hex)`, `(bin)`, `(up)`, `(low)`, `(cap)`.
