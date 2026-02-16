@@ -1,0 +1,6 @@
+TASK-05: Punctuation attachment & grouping
+- Goal: Implement rules for attaching punctuation and grouping sequences like `...` and `!?`.
+- Inputs: token stream from tokenizer.
+- Outputs: Function that merges punctuation into previous token when appropriate.
+- Acceptance criteria: Examples in PRD are satisfied (e.g., `Are you sure  ? Yes !` -> `Are you sure? Yes!`).
+- Test: Golden test where punctuation spacing is irregular.

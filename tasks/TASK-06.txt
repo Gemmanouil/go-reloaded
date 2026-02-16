@@ -1,0 +1,6 @@
+TASK-06: Quotes and apostrophes handling
+- Goal: Ensure quotes are trimmed and spaces inside quotes removed.
+- Inputs: token stream including `'` tokens.
+- Outputs: Quote collector that outputs a single quoted token with internal spaces normalized.
+- Acceptance criteria: Examples pass (e.g., `He called it '   magic   '` -> `He called it 'magic'`).
+- Test: Golden test included.

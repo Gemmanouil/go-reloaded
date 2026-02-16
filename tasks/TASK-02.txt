@@ -1,0 +1,6 @@
+TASK-02: Golden tests (text-only)
+- Goal: Collect golden input/expected pairs covering all PRD rules.
+- Inputs: `prd.md` acceptance criteria and prdfix additions.
+- Outputs: `golden_tests.txt` with input/expected pairs and rule tags.
+- Acceptance criteria: Each test entry has input, expected output, and rules exercised.
+- Test: Run CLI on each input and verify output equals expected.

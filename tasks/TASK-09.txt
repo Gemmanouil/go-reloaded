@@ -1,0 +1,6 @@
+TASK-09: Integration & golden tests harness
+- Goal: Wire components and create a simple harness to run all golden tests.
+- Inputs: all components implemented (tokenizer, FSM, marker applier, reconstructor).
+- Outputs: `golden_tests.txt` and a script or README command to run them.
+- Acceptance criteria: All golden tests pass when run with the CLI.
+- Test: `go run . golden_test.txt out.txt` then compare to `golden_expected.txt`.

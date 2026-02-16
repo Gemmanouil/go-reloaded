@@ -1,0 +1,6 @@
+TASK-04: Processing strategy (FSM) mapped to tasks
+- Goal: Map FSM states to components and responsibilities.
+- Inputs: FSM diagram in `prd.md` and `agent.md`.
+- Outputs: Component list: Tokenizer, FSM engine, Marker applier, Reconstructor, Tests.
+- Acceptance criteria: Each component has a testable contract.
+- Test: Unit-test tokenizer and marker applier separately.

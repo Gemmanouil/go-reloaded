@@ -1,0 +1,72 @@
+# Golden tests: input -> expected
+
+1)
+Input: 2A (hex)
+Expected: 42
+Rules: marker conversion (hex)
+
+2)
+Input: this is wild (up, 3)
+Expected: THIS IS WILD
+Rules: case transform (up, N)
+
+3)
+Input: Are you sure  ? Yes !
+Expected: Are you sure? Yes!
+Rules: punctuation attachment
+
+4)
+Input: He called it '   magic   '
+Expected: He called it 'magic'
+Rules: quotes trimming
+
+5)
+Input: She found a umbrella
+Expected: She found an umbrella
+Rules: article rule
+
+6)
+Input: (up)
+Expected: (up)
+Rules: marker with no previous word preserved
+
+7)
+Input: Hello world (low, 10)
+Expected: hello world
+Rules: case transform with N larger than available
+
+8)
+Input: Try this (up, X)
+Expected: Try this
+Rules: invalid count ignored
+
+9)
+Input: run fast (up) now (cap)
+Expected: RUN fast Now
+Rules: sequential markers
+
+10)
+Input: Wait , stop ! This is odd ... right ?
+Expected: Wait, stop! This is odd... right?
+Rules: complex punctuation
+
+Additional (from prdfix.txt):
+11)
+Input: If I make you BREAKFAST IN BED (low, 3) just say thank you instead of: how (cap) did you get in my house (up, 2) ?
+Expected: If I make you breakfast in bed just say thank you instead of: How did you get in MY HOUSE?
+Rules: case transforms, punctuation, quotes
+
+12)
+Input: I have to pack 101 (bin) outfits. Packed 1a (hex) just to be sure
+Expected: I have to pack 5 outfits. Packed 26 just to be sure
+Rules: marker conversions (bin, hex)
+
+13)
+Input: Don not be sad ,because sad backwards is das . And das not good
+Expected: Don not be sad, because sad backwards is das. And das not good
+Rules: punctuation spacing
+
+14)
+Input: harold wilson (cap, 2) : ' I am a optimist ,but a optimist who carries a raincoat . '
+Expected: Harold Wilson: 'I am an optimist, but an optimist who carries a raincoat.'
+Rules: cap, quotes, punctuation

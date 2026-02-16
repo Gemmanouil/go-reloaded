@@ -36,3 +36,20 @@ This file defines **how** the program will work internally.
 ---
 
 These two documents together form the complete specification and architectural plan for the go‑reloaded project.
+
+## Usage & Tests
+
+Run the CLI:
+
+```
+go run . <inputFile> <outputFile>
+```
+
+Quick check using provided golden tests:
+
+```
+go run . golden_test.txt out.txt
+diff -u golden_expected.txt out.txt
+```
+
+Additional project artifacts (audit, tasks, golden tests, AI usage index) are present in the repository for Phase 2 requirements.

@@ -1,0 +1,6 @@
+TASK-03: Tokenization/parsing plan
+- Goal: Define tokens (words, punctuation groups, markers, quotes).
+- Inputs: sample inputs from PRD.
+- Outputs: Tokenization spec and 3 worked examples in `tasks/TASK-03.txt`.
+- Acceptance criteria: Spec shows how `...`, `!?`, `(up, 3)`, and `'` are tokenized.
+- Test: Manually verify tokenization aligns with examples.

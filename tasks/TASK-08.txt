@@ -1,0 +1,6 @@
+TASK-08: Article rule (a -> an)
+- Goal: Implement rule replacing `a`/`A` with `an`/`An` when next word starts with vowel or `h`.
+- Inputs: reconstructed token stream.
+- Outputs: Reconstructor that applies article fix.
+- Acceptance criteria: `a umbrella` -> `an umbrella`; `a honor` -> `an honor`.
+- Test: Golden tests included.

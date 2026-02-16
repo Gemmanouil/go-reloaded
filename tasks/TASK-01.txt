@@ -1,0 +1,6 @@
+TASK-01: Define contracts + repo deliverables
+- Goal: Lock down rules and repo layout for Phase 2 implementation.
+- Inputs: `prd.md`, repository files
+- Outputs: File list and locations (PRD, golden tests, tasks/), README entry.
+- Acceptance criteria: PRD present, `tasks/` folder exists, README usage shown.
+- Test: Inspect repository; open `prd.md`, `tasks/`, and `README.md` within 60s.

@@ -1,0 +1,6 @@
+TASK-07: Marker conversions (hex/bin) and error handling
+- Goal: Convert previous word from hex/bin to decimal; preserve marker if target missing.
+- Inputs: token stream and marker tokens.
+- Outputs: Marker applier that handles conversion and malformed markers.
+- Acceptance criteria: `2A (hex)` -> `42`, `(hex)` with no previous word remains `(hex)`.
+- Test: Golden tests included.

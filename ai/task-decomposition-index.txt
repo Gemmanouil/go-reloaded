@@ -1,0 +1,11 @@
+Model: GPT-5 mini
+Date: 2026-02-16
+What I asked: Generate task decomposition files, peer-audit template, golden tests, and AI usage index entries; implement file creation and commit.
+What I copied/edited: Generated task cards and golden_tests.txt; edited README.md and added audit/ and ai/ files.
+Affected tasks: TASK-01 through TASK-09
+
+Model: GPT-5 mini
+Date: 2026-02-16
+What I asked: Implement processor FSM, tokenizer, and markers per PRD; run golden tests and adjust behavior.
+What I copied/edited: Edited `processor.go`, ran `go run` and verified outputs.
+Affected tasks: TASK-03, TASK-05, TASK-07, TASK-09
